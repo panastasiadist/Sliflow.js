@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
     title: 'Sliflow.js',
     description: 'Low effort content slider',
+    base: '/Sliflow.js/',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
