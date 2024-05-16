@@ -24,11 +24,10 @@
 
 ### Node.js - CommonJS
 
-1. Download a release zip from [GitHub](https://github.com/panastasiadist/Sliflow.js/releases).
-2. Install the **sliflow** package from NPM: **`npm install --save sliflow`**
-3. Code the required HTML/CSS as outlined in the [next section](#html-css).
-4. Include the main Sliflow style in your app from the **`sliflow/styles`** path, as required by your toolchain.
-5. Require Sliflow and initialize it for your HTML block.
+1. Install the **sliflow** package from NPM: **`npm install --save sliflow`**
+2. Code the required HTML/CSS as outlined in the [next section](#html-css).
+3. Include the main Sliflow style in your app from the **`sliflow/styles`** path, as required by your toolchain.
+4. Require Sliflow and initialize it for your HTML block.
 
 ```javascript
 const Sliflow = require('sliflow');
@@ -43,11 +42,10 @@ try {
 
 ### Node.js - ESM
 
-1. Download a release zip from [GitHub](https://github.com/panastasiadist/Sliflow.js/releases).
-2. Install the **sliflow** package from NPM: **`npm install --save sliflow`**
-3. Code the required HTML/CSS as outlined in the [next section](#html-css).
-4. Include the main Sliflow style in your app from the **`sliflow/styles`** path, as required by your toolchain.
-5. Require Sliflow and initialize it for your HTML block.
+1. Install the **sliflow** package from NPM: **`npm install --save sliflow`**
+2. Code the required HTML/CSS as outlined in the [next section](#html-css).
+3. Include the main Sliflow style in your app from the **`sliflow/styles`** path, as required by your toolchain.
+4. Import Sliflow and initialize it for your HTML block.
 
 ```javascript
 import Sliflow from 'sliflow';
