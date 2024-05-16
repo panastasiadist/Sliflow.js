@@ -103,7 +103,7 @@ A vertical slider requires its height to be set to a specific value.
   shown above is not necessary but recommended, especially if the height reserved by the slide's content is unequal.
   Read the [Core Concepts](/guide/core-concepts) section for more information.
 - All classes, except for **`sliflow-cover`**, are required. The aforementioned class is a utility class bundled by
-  Sliflow. It makes an image fill a slide's available space. Read the [Utilities](/guide/utilities) section for more
-  information.
+  Sliflow. It makes an image fill a slide's available space. Read the [Utility Classes](/guide/utility-classes) section 
+  for more information.
 - The width of a slider depends on the Slider's available horizontal space or any applied CSS rules.
   :::
