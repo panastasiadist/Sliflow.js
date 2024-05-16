@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    font-family: monospace;
+}
+
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--rvw);
+    max-width: 100%;
+    padding: 15px;
+}
+
+.collection .item {
+    width: 100%;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .collection .item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .collection .item {
+        width: 33.333333334%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .collection .item {
+        width: 25%;
+    }
+}

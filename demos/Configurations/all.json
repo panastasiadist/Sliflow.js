@@ -1,0 +1,20 @@
+[
+  {
+    "data-sliflow-orientation-mode": ["", "horizontal", "vertical"]
+  },
+  {
+    "dir": ["", "ltr", "rtl"]
+  },
+  {
+    "data-sliflow-swipe": ["", "true", "true", "true", "true"],
+    "data-sliflow-swipe-transition-threshold": ["", "", "10", "", "10"],
+    "data-sliflow-swipe-distance-multiplier": ["", "", "", "10", "10"]
+  },
+  {
+    "data-sliflow-replay-strategy": ["", "none", "rewind", "loop"]
+  },
+  {
+    "data-sliflow-timed-transition-interval": ["", "3", "3"],
+    "data-sliflow-timed-transition-hover-strategy": ["", "", "pause"]
+  }
+]

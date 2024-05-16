@@ -1,0 +1,12 @@
+# Directories
+coverage
+dist
+node_modules
+.idea
+
+# Log files
+*.log
+
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache

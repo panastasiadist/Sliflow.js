@@ -1,0 +1,6 @@
+[
+  {
+    "data-sliflow-timed-transition-interval": ["1", "3"],
+    "data-sliflow-replay-strategy": ["loop", "loop"]
+  }
+]

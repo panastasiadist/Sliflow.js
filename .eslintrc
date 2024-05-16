@@ -1,0 +1,41 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "prettier",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "prettier"
+  ],
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "@typescript-eslint/indent": [
+      "error",
+      4
+    ],
+    "@typescript-eslint/member-ordering": [
+      "error",
+      {
+        "default": {
+          "order": "alphabetically"
+        }
+      }
+    ],
+    "prettier/prettier": [
+      "error"
+    ]
+  },
+  "parserOptions": {
+    "project": "./tsconfig.lint.json"
+    // Point to your tsconfig.json
+  }
+}

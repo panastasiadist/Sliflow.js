@@ -1,0 +1,70 @@
+.sliflow {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.sliflow-slide {
+    position: relative;
+}
+
+.sliflow:not([data-sliflow-orientation-mode]) .sliflow-projector,
+.sliflow:not([data-sliflow-orientation-mode]) .sliflow-stage,
+.sliflow[data-sliflow-orientation-mode="horizontal"] .sliflow-projector,
+.sliflow[data-sliflow-orientation-mode="horizontal"] .sliflow-stage {
+    height: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.sliflow[data-sliflow-orientation-mode="vertical"] .sliflow-projector,
+.sliflow[data-sliflow-orientation-mode="vertical"] .sliflow-stage {
+    width: 100%;
+}
+
+.sliflow-projector,
+.sliflow[data-sliflow-replay-strategy="loop"] .sliflow-slide {
+    will-change: transform;
+}
+
+/*
+ * Hide the slides until the slider is ready (loaded) to avoid showing the slides in a inconsistent state.
+ * DO NOT EVER use display: none as the latter is used only when a slide should be completely ignored as if not existed.
+ */
+.sliflow:not(.sliflow-ready) .sliflow-slide {
+    visibility: hidden;
+}
+
+/* Utility Classes */
+
+.sliflow-utility-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Utility Transition Classes */
+
+.sliflow-utility-transition:not(.sliflow-swiping) .sliflow-projector {
+    transition: transform 250ms linear;
+}
+
+.sliflow-utility-transition-500:not(.sliflow-swiping) .sliflow-projector {
+    transition-duration: 500ms;
+}
+
+.sliflow-utility-transition-1000:not(.sliflow-swiping) .sliflow-projector {
+    transition-duration: 1000ms;
+}
+
+.sliflow-utility-transition-2000:not(.sliflow-swiping) .sliflow-projector {
+    transition-duration: 2000ms;
+}
+
+.sliflow-utility-transition-linear:not(.sliflow-swiping) .sliflow-projector {
+    transition-timing-function: linear;
+}
+
+.sliflow-utility-transition-ease-in-out:not(.sliflow-swiping) .sliflow-projector {
+    transition-timing-function: linear;
+}
