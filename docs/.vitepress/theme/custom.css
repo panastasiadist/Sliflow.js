@@ -7,13 +7,10 @@
     --vp-font-family-base: 'Poppins', sans-serif;
     --vp-font-family-mono: 'JetBrains Mono', monospace;
     --vp-code-font-size: 14px;
-    /*--vp-c-brand-light: #0E22B4;*/
-    /*--vp-c-brand-lighter: #021ACB;*/
-
     --vp-home-hero-name-color: #00873d;
     --vp-c-brand-1: #00873d;
     --vp-button-brand-bg: #00873d;
-    --vp-button-brand-hover-bg: #00873d;
+    --vp-button-brand-hover-bg: #007736;
 }
 
 body {
