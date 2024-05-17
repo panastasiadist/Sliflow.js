@@ -6,6 +6,9 @@ hero:
   name: "Sliflow.js"
   text: "Simple yet Capable Content Slider"
   tagline: An effortless, declarative means of building content sliders, driven by HTML and CSS.
+  image:
+    src: /logo.png
+    alt: Sliflow.js
   actions:
     - theme: brand
       text: Get Started

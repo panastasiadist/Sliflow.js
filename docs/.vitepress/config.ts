@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: 'Sliflow.js',
-    description: 'Low effort content slider',
+    description: 'An effortless, declarative means of building content sliders, driven by HTML and CSS',
     base: '/Sliflow.js/',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
